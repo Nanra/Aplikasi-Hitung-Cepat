@@ -1,0 +1,42 @@
+/*
+#tinggi {
+    height: auto;
+}
+*/
+
+.jarak {
+    height: 30px;
+}
+
+#modal2 {
+  width: 85% !important;
+  height: 100% !important;
+}
+
+
+#listtabel {
+
+    padding: 25px;
+}
+
+#logo {
+    padding-top: 6px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.parallax-container {
+    height: 500px;
+}
+
+.slider {
+	padding-top: 0px !important;
+}
