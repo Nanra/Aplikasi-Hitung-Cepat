@@ -9,6 +9,8 @@ Sebelum menggunakan aplikasi ini mohon pastikan program-program berikut sudah te
 * Apache
 * PHP
 * MySQL
-* Text Editor
 
-Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html)
+Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html) karena didalamnya sudah tersedia lengkap program-program diatas.
+
+## Database
+Untuk databasenya, Anda bisa 
