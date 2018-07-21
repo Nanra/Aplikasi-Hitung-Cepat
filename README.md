@@ -5,8 +5,10 @@
 Aplikasi ini saya hibahkan untuk digunakan dalam proses hitung cepat Pilkada Kabupaten Padang Lawas 2018. Suara berasal dari jumlah suara sah yang dilaporkan oleh saksi dari setiap TPS. Dalam kasus ini terdapat 3 pasang calon.
 
 ## Requirements
-Sebelum menggunakan aplikasi ini mohon pastikan program-program berikut sudah terinstall dalam PC Anda:
-* XAMPP
+Sebelum menggunakan aplikasi ini mohon pastikan program-program berikut sudah terinstall dalam komputer Anda:
+* Apache
 * PHP
 * MySQL
 * Text Editor
+
+Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html)
