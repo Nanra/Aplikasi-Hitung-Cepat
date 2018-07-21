@@ -13,4 +13,4 @@ Sebelum menggunakan aplikasi ini mohon pastikan program-program berikut sudah te
 Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html) karena didalamnya sudah tersedia lengkap program-program diatas.
 
 ## Database
-Untuk databasenya, Anda bisa 
+Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html) , selanjutnya buka PHP Myadmin untuk membuat database baru. Buatlah database dengan nama **tondi** . Kemudian import file database [tondi.sql](https://github.com/Nanra/Aplikasi-Hitung-Cepat/tree/master/database/database%20baru) ke dalam database yang barusan Anda buat.
