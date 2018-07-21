@@ -28,9 +28,9 @@ Penulis menyarankan untuk menggunakan **Web Browser** yang diberi tanda * . Dan 
 
 ### Instal Text Editor
 Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install salah satu dari text editor dibawah ini:
-[Atom] (https://atom.io/)
-[Brackets] (http://brackets.io/)
-[Sublime] (https://www.sublimetext.com/)
+* [Atom] (https://atom.io/)
+* [Brackets] (http://brackets.io/)
+* [Sublime] (https://www.sublimetext.com/)
 
 ### Database
 Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html), selanjutnya buka [PHP Myadmin](http://localhost/phpmyadmin/) pada web browser Anda untuk membuat database baru. Buatlah database baru dengan nama **tondi**. Kemudian import file database [tondi.sql](https://github.com/Nanra/Aplikasi-Hitung-Cepat/tree/master/database/database%20baru) ke dalam database yang barusan Anda buat.
