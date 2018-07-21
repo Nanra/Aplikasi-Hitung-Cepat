@@ -49,23 +49,23 @@ C:/xampp/htdocs/
 
 ## Tampilan Aplikasi
 ### Menu Dashboard
-Untuk mengakses menu ***Dashboard*** silahkan ketik url berikut: http://localhost/realcount/
+Untuk mengakses menu **Dashboard** silahkan ketik url berikut: http://localhost/realcount/
 ![dashboard](https://user-images.githubusercontent.com/9511668/43037757-8e90886e-8d3b-11e8-8dbe-ed9a4f36df04.png)
 
 ### Menu Admin Panel
-Untuk mengakses menu ***Admin*** silahkan ketikkan url berikut: http://localhost/realcount/admin/
+Untuk mengakses menu **Admin** silahkan ketikkan url berikut: http://localhost/realcount/admin/
 ![adminpanel](https://user-images.githubusercontent.com/9511668/43037765-b9ee5892-8d3b-11e8-8d2a-b430c081bb96.png)
 
 ### Menu Input Suara
-Untuk mengakses menu ***Input Suara*** silahkan ketik url berikut: http://localhost/realcount/inputdata.php
+Untuk mengakses menu **Input Suara** silahkan ketik url berikut: http://localhost/realcount/inputdata.php
 ![menuinputsuara](https://user-images.githubusercontent.com/9511668/43038624-dfce837e-8d46-11e8-8811-aa6d1f256336.png)
 
 ### Menu Cek Suara Masuk
-Untuk mengakses menu ***Cek Suara Masuk*** silahkan ketik url berikut: http://localhost/realcount/listdata.php
+Untuk mengakses menu **Cek Suara Masuk** silahkan ketik url berikut: http://localhost/realcount/listdata.php
 ![menuceksuara](https://user-images.githubusercontent.com/9511668/43038626-09354d74-8d47-11e8-8d71-2f8e7abc6b58.png)
 
 ### Menu Edit Suara Masuk
-Untuk mengakses menu ***Edit Suara Masuk*** silahkan ketik url berikut:
+Untuk mengakses menu **Edit Suara Masuk** silahkan ketik url berikut:
 ![menuedit](https://user-images.githubusercontent.com/9511668/43038637-31b2973e-8d47-11e8-940d-76185772258f.png)
 
 
@@ -74,4 +74,3 @@ Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install sala
 * [Atom](https://atom.io/)
 * [Brackets](http://brackets.io/)
 * [Sublime](https://www.sublimetext.com/)
-
