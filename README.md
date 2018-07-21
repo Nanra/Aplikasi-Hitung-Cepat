@@ -7,11 +7,11 @@ Aplikasi ini saya hibahkan untuk digunakan dalam proses hitung cepat Pilkada Kab
 ## Getting Started
 Sebelum menggunakan aplikasi ini mohon pastikan program-program berikut sudah terinstall dalam komputer Anda:
 ### Apache
-''' 
+``` 
 Apache
 PHP
 MySQL
-'''
+```
 
 Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html) karena didalamnya sudah tersedia lengkap program-program diatas.
 
