@@ -24,7 +24,7 @@ Google Chrome
 *Opera
 Safari
 ```
-Saya sarankan untuk menggunakan **Web Browser** yang diberi tanda * . Dan tekan ***F11*** untuk masuk ke mode fullscreen pada web browser Anda untuk tampilan yang lebih bagus.
+Disarankan untuk menggunakan **Web Browser** yang diberi tanda * . Dan tekan ***F11*** untuk masuk ke mode fullscreen pada web browser Anda untuk tampilan yang lebih bagus.
 
 ### Database
 Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html) dan **Web Browser**, selanjutnya buka [PHP Myadmin](http://localhost/phpmyadmin/) pada web browser Anda untuk membuat database baru. Buatlah database baru dengan nama **tondi**. Kemudian import file database [tondi.sql](https://github.com/Nanra/Aplikasi-Hitung-Cepat/tree/master/database/database%20baru) ke dalam database yang barusan Anda buat.
@@ -34,16 +34,18 @@ Bagi Anda yang sudah terbiasa bekerja dengan lingkungan ***XAMPP*** Anda bisa le
 Namun bagi Anda yang masih baru silahkan simak dengan baik langkah-langkah berikut ini:
 * Pertama Ekstrak file **Aplikasi-Hitung-Cepat-Master.zip**
 * Ubah nama folder hasil ekstrak menjadi ***realcount***
-* Kemudian pindahkan folder tersebut secara utuh ke dalam path berikut ini:
+* Kemudian pindahkan folder ***realcount*** tersebut secara utuh ke dalam folder berikut ini:
+
 Pengguna Linux:
 ```
-/opt/lampp/htdocs
+/opt/lampp/htdocs/
 
 ```
 Pengguna Windows:
 ```
-C:/xampp/htdocs
+C:/xampp/htdocs/
 ```
+* Selanjutnya buka **Web Browser** Anda dan ketikkan alamat berikut : http://localhost/realcount/
 ### Instal Text Editor
 Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install salah satu dari text editor dibawah ini:
 * [Atom](https://atom.io/)
