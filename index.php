@@ -14,63 +14,36 @@
         <link rel="icon" type="image/png" href="img/tondi.png">
         <link href="vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
         <link href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-
-
         <!-- CSS -->
         <link href="css/app.min.1.css" rel="stylesheet">
         <link href="css/app.min.2.css" rel="stylesheet">
-
         <!-- Javascript Libraries -->
         <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
         <script src="vendors/bower_components/jquery.nicescroll/jquery.nicescroll.min.js"></script>
         <script src="vendors/bower_components/Waves/dist/waves.min.js"></script>
         <script src="vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
         <script src="vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
         <script src="vendors/sparklines/jquery.sparkline.min.js"></script>
         <script src="vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-
         <!-- Jam -->
         <link rel="stylesheet" href="css/jam.css">
-
-		   <script src="js/jam.js"></script>
+		    <script src="js/jam.js"></script>
+        <script src="js/charts.js"></script>
+        <script src="js/functions.js"></script>
+        <!-- <script src="js/demo.js"></script> -->
 
         <!-- Placeholder for IE9 -->
         <!--[if IE 9 ]>
             <script src="vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
         <![endif]-->
-
-        <script src="js/charts.js"></script>
-        <script src="js/functions.js"></script>
-        <!-- <script src="js/demo.js"></script> -->
     </head>
 
     <body>
-      <!-- Bagian Get Database -->
-      <?php
-      require_once "core/init.php";
-      $sqlPaslonSatu = "SELECT SUM(paslon_satu) AS suara_satu FROM datamasuk"; // Jumlahkan semua data Paslon 1
-      $sqlPaslonDua = "SELECT SUM(paslon_dua) AS suara_dua FROM datamasuk";
-      $sqlPaslonTiga = "SELECT SUM(paslon_tiga) AS suara_tiga FROM datamasuk";
-      $totalSuaraSatu = mysqli_query($link, $sqlPaslonSatu); //Eksekusi Query
-      $totalSuaraDua = mysqli_query($link, $sqlPaslonDua);
-      $totalSuaraTiga = mysqli_query($link, $sqlPaslonTiga);
-      $hasilSuaraSatu = $totalSuaraSatu->fetch_assoc(); // Mengambil value
-      $hasilSuaraDua = $totalSuaraDua->fetch_assoc();
-      $hasilSuaraTiga = $totalSuaraTiga->fetch_assoc();
-      $hasilTotal = $hasilSuaraSatu['suara_satu'] + $hasilSuaraDua['suara_dua'] + $hasilSuaraTiga['suara_tiga'];
-
-      // Menghitung Jumlah TPS Masuk
-      $sqlHitungTPS = "SELECT tps FROM datamasuk";
-      $eksekusiHitungTPS = mysqli_query($link, $sqlHitungTPS);
-      $jumlahTPSMasuk = mysqli_num_rows($eksekusiHitungTPS);
-
-       ?>
+      <?php include "getData.php"; ?>
         <header id="header">
           <div class="container"><h1 style="text-align: center; color: white;"> HASIL HITUNG CEPAT SUARA SAH PILKADA KAB. PADANG LAWAS 2018 </h1></div>
         </header>
-
         <section id="main">
             <section id="content">
                 <div class="container">

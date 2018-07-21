@@ -1,5 +1,4 @@
 <?php require_once "view/header.php"; ?>
-
 <div class="navbar-fixed">
         <nav class="teal accent-4">
             <!-- Menu Navbar -->
@@ -18,7 +17,6 @@
     </div>
     <!-- Navbar Fixed -->
 <?php require_once "core/init.php"; ?>
-
 <!-- ISI KONTENT -->
 <br>
 <div class="container">
@@ -79,7 +77,6 @@
     } else {
     $sql = mysqli_query($link,"SELECT * FROM datamasuk") or die (mysql_error());
     }
-
    // mengecek data
    $cek = mysqli_num_rows($sql);
    // jika data kurang dari 1
@@ -93,7 +90,6 @@
         </tr>
         <?php
    } else {
-
    // mengulangi data agar tidak hanya 1 yang tampil
    while($data = mysqli_fetch_array($sql)) {
    ?>
@@ -151,7 +147,6 @@
                 </td>
             </tr>
             <?php
-
   }
  }
 ?>
@@ -269,16 +264,12 @@ if(isset($_GET['edit']))
             </div>
           </form>
       </div>
-
-      <!-- Skrip Update Data -->
-
-      <!-- penutup Button Save Update -->
+      <!-- Penutup Button Save Update -->
       <!-- Tutup Form -->
     </div>
     <!-- Penutup konten Modal -->
 </div>
 <!-- Penutup Modal Edit Data -->
-
 
 <!-- SKRIP UNTUK MENGAMBIL DATA UNTUK DIHAPUS SESUAI ID -->
 <?php
