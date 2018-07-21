@@ -6,7 +6,7 @@ Aplikasi ini saya hibahkan untuk digunakan dalam proses hitung cepat Pilkada Kab
 
 ## Getting Started
 Aplikasi ini dapat langsung diakses dengan menggunakan **web browser**.
-Namun sebelum menggunakan aplikasi ini silahkan perhatikan langkah-langkah berikut:
+Namun sebelum menggunakan aplikasi ini silahkan perhatikan langkah-langkah di bawah ini terutama bagi Anda yang masih baru dalam pemrograman di lingkungan ***XAMPP***.
 
 ### Install Aplikasi Pendukung
 Pastikan program-program di bawah ini sudah terinstall dalam komputer Anda:
@@ -32,8 +32,18 @@ Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html)
 ### HTDOCS
 Bagi Anda yang sudah terbiasa bekerja dengan lingkungan ***XAMPP*** Anda bisa lewatkan step ini.
 Namun bagi Anda yang masih baru silahkan simak dengan baik langkah-langkah berikut ini:
-* Pertama Ekstrak folder **Aplikasi-Hitung-Cepat-Master.zip**
+* Pertama Ekstrak file **Aplikasi-Hitung-Cepat-Master.zip**
+* Ubah nama folder hasil ekstrak menjadi ***realcount***
+* Kemudian pindahkan folder tersebut secara utuh ke dalam path berikut ini:
+Pengguna Linux:
+```
+/opt/lampp/htdocs
 
+```
+Pengguna Windows:
+```
+C:/xampp/htdocs
+```
 ### Instal Text Editor
 Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install salah satu dari text editor dibawah ini:
 * [Atom](https://atom.io/)
