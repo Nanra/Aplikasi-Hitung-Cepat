@@ -8,7 +8,7 @@ Aplikasi ini saya hibahkan untuk digunakan dalam proses hitung cepat Pilkada Kab
 Aplikasi ini dapat langsung diakses dengan menggunakan **web browser**.
 Namun sebelum menggunakan aplikasi ini silahkan perhatikan langkah-langkah berikut:
 
-### Instal Aplikasi Pendukung
+### Install Aplikasi Pendukung
 Pastikan program-program di bawah ini sudah terinstall dalam komputer Anda:
 ``` 
 Apache
@@ -17,14 +17,22 @@ MySQL
 ```
 Untuk lebih mudahnya Anda bisa langsung menginstall [XAMPP](https://www.apachefriends.org/download.html) karena didalamnya sudah tersedia lengkap program-program diatas.
 
-### Instal Web Browser
+### Install Web Browser
 ```
 Google Chrome 
 *Mozilla Firefox
 *Opera
 Safari
 ```
-Penulis menyarankan untuk menggunakan **Web Browser** yang diberi tanda * . Dan tekan ***F11*** untuk masuk ke mode fullscreen pada web browser Anda.
+Saya sarankan untuk menggunakan **Web Browser** yang diberi tanda * . Dan tekan ***F11*** untuk masuk ke mode fullscreen pada web browser Anda untuk tampilan yang lebih bagus.
+
+### Database
+Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html) dan **Web Browser**, selanjutnya buka [PHP Myadmin](http://localhost/phpmyadmin/) pada web browser Anda untuk membuat database baru. Buatlah database baru dengan nama **tondi**. Kemudian import file database [tondi.sql](https://github.com/Nanra/Aplikasi-Hitung-Cepat/tree/master/database/database%20baru) ke dalam database yang barusan Anda buat.
+
+### HTDOCS
+Bagi Anda yang sudah terbiasa bekerja dengan lingkungan ***XAMPP*** Anda bisa lewatkan step ini.
+Namun bagi Anda yang masih baru silahkan simak dengan baik langkah-langkah berikut ini:
+* Pertama Ekstrak folder **Aplikasi-Hitung-Cepat-Master.zip**
 
 ### Instal Text Editor
 Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install salah satu dari text editor dibawah ini:
@@ -32,5 +40,3 @@ Untuk mengedit skrip program atau keperluan ***tweeking*** silahkan install sala
 * [Brackets](http://brackets.io/)
 * [Sublime](https://www.sublimetext.com/)
 
-### Database
-Setelah selesai menginstall [XAMPP](https://www.apachefriends.org/download.html), selanjutnya buka [PHP Myadmin](http://localhost/phpmyadmin/) pada web browser Anda untuk membuat database baru. Buatlah database baru dengan nama **tondi**. Kemudian import file database [tondi.sql](https://github.com/Nanra/Aplikasi-Hitung-Cepat/tree/master/database/database%20baru) ke dalam database yang barusan Anda buat.
