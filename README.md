@@ -65,7 +65,7 @@ Untuk mengakses menu **Cek Suara Masuk** silahkan ketik url berikut: http://loca
 ![menuceksuara](https://user-images.githubusercontent.com/9511668/43038626-09354d74-8d47-11e8-8d71-2f8e7abc6b58.png)
 
 ### Menu Edit Suara Masuk
-Untuk mengakses menu **Edit Suara Masuk** silahkan ketik url berikut:
+Untuk mengakses menu **Edit Suara Masuk** silahkan ketik url berikut: http://localhost/realcount/editdata.php
 ![menuedit](https://user-images.githubusercontent.com/9511668/43038637-31b2973e-8d47-11e8-940d-76185772258f.png)
 
 
